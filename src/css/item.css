@@ -1,0 +1,245 @@
+#local{
+	width: 1000px;
+	height: 44px;
+	margin: 0 auto;
+
+	border-bottom: 1px solid #e5e5e5;
+}
+#main{
+
+	width: 1000px;
+	overflow: hidden;
+	margin:  10px auto 0;
+}
+.main_l{
+	position: relative;
+	width: 402px;
+	height: 696px;
+}
+.pic_t{
+	position: relative;
+	width: 402px;
+	height: 536px;
+	border: 1px solid #ccc;
+}
+/*中图*/
+.pic_t img{
+	width: 100%;
+	height: 100%;
+}
+/*大图*/
+.largepic{
+	left: 402px;
+	width: 402px;
+	height: 536px;
+	overflow: hidden;
+	position: absolute;
+	display: none;
+}
+.largepic img{
+	position: absolute;
+	display: block;
+	width: 804px;
+	height: 1072px;
+}
+/*遮罩*/
+.scan{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 5;
+	width: 200px;
+	height: 200px;
+	display: none;
+	background: red;
+	opacity: .3;
+}
+.pic_b{
+	width: 402px;
+	overflow: hidden;
+}
+.pic_b li{
+	float: left;
+	width: 68px;
+	height: 94px;
+
+	/*background: url; 数据js动态生成*/
+	margin: 14px 4px 0;
+}
+.pic_b li img{
+	display: block;
+	width: 68px;
+	height: 94px;
+}
+.main_r{
+	width:572px;
+	height: 696px;
+}
+.title{
+	height: 32px;
+	font: 16px/32px "微软雅黑" ;
+	color: #ee7616;
+}
+.title span{
+
+	font: 16px/32px "微软雅黑";
+	color: #000;
+}
+.prod{
+	height: 32px;
+	font: 12px/32px "微软雅黑";
+	color: #646464;
+}
+.price{
+	padding: 20px 0;
+}
+.price p:nth-child(1){
+	font: 12px/30px "微软雅黑";
+	color: #ea7514;
+}
+.price>p:nth-child(1) span{
+	font-size: 20px;
+	color: red;
+}
+.price>p:nth-child(2){
+	font: 12px/30px "微软雅黑";
+	color: #ea7514;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.price>p:nth-child(3){
+	font: 12px/30px "微软雅黑";
+	color: #ea7514;
+}
+.price>p:nth-child(4){
+	font: 12px/30px "微软雅黑";
+	color: #ea7514;
+}
+.price>p:nth-child(5){
+	font: 12px/30px "微软雅黑";
+	color: #ea7514;
+	overflow: hidden;
+}
+.price>p:nth-child(5) input{
+	border: 1px solid #000;
+}
+.price>p:nth-child(6){
+	font: 12px/16px "微软雅黑";
+	text-indent: 16px;
+	color: #ea7514;
+	overflow: hidden;
+	margin: 8px 0;
+}
+.price>p:nth-child(6) a{
+	display: block;
+	float: left;
+	height: 16px;
+}
+.price>p:nth-child(6) a:nth-child(1){
+	
+	background: url(http://www.xiustatic.com/static/css/default/img/fqb.gif) 0 0 no-repeat;
+	width: 94px;
+}	
+.price>p:nth-child(6) a:nth-child(2){
+	background: url(http://www.xiustatic.com/static/css/default/img/wlb.jpg) 0 0 no-repeat;
+	width: 118px;
+}	
+.price>p:nth-child(6) a:nth-child(3){
+	background: url(http://www.xiustatic.com/static/css/default/img/fwb.jpg) 0 0 no-repeat;
+	width: 144px;
+}	
+.price>p:nth-child(7){
+	height: 34px;	
+	overflow: hidden;
+	margin-bottom: 20px;	
+}
+.price>p:nth-child(7) a{
+	display: block;
+	float: left;
+	width: 152px;
+	height: 34px;
+	margin-right: 16px;
+	border-radius:2px ;
+}
+
+
+
+
+/*购买按钮*/
+.price>p:nth-child(7) a:nth-child(1){
+	background:url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) 0 -845px no-repeat;	
+}
+.price>p:nth-child(7) a:nth-child(1):hover{
+	background:url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) 0 -881px no-repeat;	
+}
+/*加入购物车按钮*/
+.price>p:nth-child(7) a:nth-child(2){
+	background:url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) 0 -916px no-repeat;	
+}
+.price>p:nth-child(7) a:nth-child(2):hover{
+	background:url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) 0 -952px no-repeat;	
+}
+.price>p:nth-child(8){
+	overflow: hidden;
+}
+.price>p:nth-child(8) a{
+	display: block;
+	float: left;
+	font: 12px/1 "微软雅黑";
+}
+.price>p:nth-child(8) span:nth-child(1){
+	color: #f27626;
+}
+.price>p:nth-child(8) span:nth-child(2){
+	font-weight: bold;
+	color: #f27626;
+}
+.price>p:nth-child(8) span:nth-child(3){	
+	color: #eee;
+}
+
+.share{
+	padding-top:20px ;
+}
+.share div{
+	float: left;
+	width: 222px;
+}
+.ewm{
+	box-sizing: border-box;
+	height: 102px;
+	border-right: 1px solid #e5e5e5;
+	padding: 34px 0 0 116px;
+	color: #707070;
+	background: url(http://my.xiu.com/v3/qrcode/item/56934712) 0 0 no-repeat;
+}
+.shareto{
+	padding: 32px 0 0 48px;
+}
+.shareto a,.shareto span{
+	display: block;
+	float: left;
+	margin-right: 6px;
+	width: 24px;
+	height: 24px;
+}
+.shareto span{
+	display: block;
+	width: 42px;
+	float: left;	
+}
+.shareto a:nth-of-type(1){
+	background: url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) -13px -27px no-repeat;
+}
+.shareto a:nth-of-type(2){
+	background: url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) -44px -27px no-repeat;
+}
+.shareto a:nth-of-type(3){
+	background: url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) -75px -27px no-repeat;
+}
+.shareto a:nth-of-type(4){
+	background: url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) -107px -27px no-repeat;
+}
+.shareto a:nth-of-type(5){
+	background: url(http://www.xiustatic.com/static/css/default/img/info/goods_info.gif) -138px -27px no-repeat;
+}

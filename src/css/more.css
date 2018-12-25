@@ -1,0 +1,70 @@
+.banner{
+	width: 1000px;
+	margin: 0 auto;
+	background: gainsboro;
+}
+.main_{
+	margin: 0 auto;
+	min-height: 38px;
+	width: 998px;
+	min-height: 500px;
+	background: #f3f3f3;
+	border: 1px solid #d7d7d7;
+	border-top: 2px solid #ff6602;
+}
+
+.product{
+	width: 998px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+.product li{
+	float: left;
+	flex: 0;
+	margin-bottom:30px ;
+}
+.product li a img{
+	display: block;
+	width: 236px;
+	height: 300px;
+}
+#help{
+	position: fixed;
+	right: 30px;
+	bottom: 180px;
+	z-index: 100;
+	
+}
+#help p{
+	border: 1px solid #ddd;
+	cursor: pointer;
+	height: 30px;
+	font: 12px/30px "微软雅黑";
+	color: red;
+	text-align: center;
+}
+#help ul li{
+	width: 69px;
+	height: 57px;
+}
+#help ul li:nth-child(1){
+	background: url(../../img/r_menu_bg.jpg) 0px 0px no-repeat;
+}
+
+#help ul li:nth-child(2){
+	background: url(../../img/r_menu_bg.jpg) 0px -58px no-repeat;
+}
+#help ul li:nth-child(3){
+	background: url(../../img/r_menu_bg.jpg) 0px -115px no-repeat;
+}
+#help ul li:nth-child(4){
+	background: url(../../img/r_menu_bg.jpg) 0px -173px no-repeat;
+}
+#help ul li:hover{
+	background-position-x: -69px;
+}
+
+

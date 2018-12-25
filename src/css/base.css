@@ -1,0 +1,100 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend,figure{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+*{margin: 0;padding: 0;}
+img,fieldset{border:0; }
+img{display:block;}
+input{
+	border:0;
+	margin: 0;
+	padding: 0;
+	}
+body{font: 12px/1.5 "微软雅黑";}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;}
+.flt{float: left;}
+.frt{float: right;}
+
+
+.footer_btnwrap{
+	width: 100%;
+	height: auto;
+	margin: 20px;
+	text-align: center;
+}
+.footer_btn{
+	display: inline-block;
+	margin: 0 auto;
+}
+.footer_btn a{
+	font-weight: bold;
+}
+.footer_btn img{
+	display: inline;
+	width: 16px;
+}
+.footer_btn a:hover{
+	color: orange;
+}
+.footer_last{
+	width: 476px;
+	margin: 14px auto 0;
+	overflow: hidden;
+}
+.footer_last a{
+	float: left;
+	
+}
+.footer_last a img{
+	margin-right: 20px;
+}
+
+footer{
+	width: 1200px;
+	margin: 25px auto 0;
+}
+.link{
+	text-align: center;
+}
+.linkList{
+	display: inline-block;
+	overflow: hidden;
+}
+.linkList li{
+	
+	text-align: right;
+	width: 76px;
+	float: left;
+	color: #d5ccd5;
+	font: 12px/14px "微软雅黑";
+	
+	
+}
+.linkList li a{
+	margin-right: 12px;
+	width: 50px;
+	font: 12px/14px "微软雅黑";	
+}
+.linkList li a:hover{
+	color: yellow;
+}
+
+.link1{
+	margin: 20px auto 0;
+	width: 580px;
+	overflow: hidden;
+}
+.link1 a{
+	width: 30%;
+	height: 44px;
+	display: block;
+	float: left;
+	background: url(../../img/foot_icons.jpg) no-repeat 14px 0;
+}
+.link1 a:nth-child(2){
+	background-position-x: -180px;
+}
+.link1 a:nth-child(3){
+	background-position-x: -370px;
+}
